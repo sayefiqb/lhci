@@ -3,11 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^2.1.1",
+    "mdbreact": "^4.22.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },
   "scripts": {
+    "predeploy": "npm run deploy",
+    "deploy": "gh-pages -b master -d buid",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -16,6 +23,7 @@
   "eslintConfig": {
     "extends": "react-app"
   },
+  "homepage": "https://sjuxplore.github.io",
   "browserslist": {
     "production": [
       ">0.2%",
