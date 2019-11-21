@@ -2,7 +2,7 @@ const profiles = [
   {
     _id: "5b21ca3eeb7f6fbccd471815",
     name: "Christoforos Christoforou",
-    title: "Faculty",
+    title: "Assistant Professor",
     about:
       "Christoforos Christoforou currently works at the Department of Computer Science, Mathematics and Science, St. John's University. Christoforos does research in Computational Neuroscience, Machine learning, Artificial Intelligence and Data Mining. Their current project is 'Neural-based predictive analytics.' Their most recent publication is 'Your Brain on Movies:A Computational Approach for Predicting Box-office Performance from Viewer’s Brain Responses to Movie Trailers",
     image_url: "./chris.jpg",
@@ -72,7 +72,7 @@ const profiles = [
     contact: {
       address: "St.Augustine Hall Queens 2-098",
       phone: "718-990-7998",
-      email: "chris@stjohns.edu"
+      email: "john@stjohns.edu"
     },
     website: "https://scholar.google.com/citations?user=0PkTM-MAAAAJ&hl=en",
     publications: [
@@ -98,9 +98,44 @@ const profiles = [
     _id: "5b21ca3eeb7f6fbccd471884",
     name: "Linda Ray",
     title: "Student",
-    about: "John Doe is a lab assistant at St. John's university",
+    about: "Linda Ray is a Student at Columbia University",
     image_url: "./linda.jpeg",
     designation: ["Assitant Professor"],
+    department: "Computer Science and Mathematics",
+    education: [
+      "MS, Computer Science, Columbia University"
+    ],
+    contact: {
+      address: "St.Augustine Hall Queens 2-098",
+      phone: "718-990-7998",
+      email: "linda@columbia.edu"
+    },
+    website: "https://scholar.google.com/citations?user=0PkTM-MAAAAJ&hl=en",
+    publications: [
+      {
+        title:
+          "Neural correlates of inspection time task performance: A developmental study",
+        authors: "TC Papadopoulos, C Ktisti, C Christoforou, M Loizou",
+        proceeding:
+          "Cognition, Intelligence, and Achievement: A Tribute to J. P. Das, 331-343",
+          link: "https://ieeexplore.ieee.org/abstract/document/5424196"
+      },
+      {
+        title:
+          "The bilinear brain: Bilinear methods for EEG analysis and brain computer interfaces",
+        authors: "C Christoforou",
+        proceeding: "City University of New York",
+        link: "https://ieeexplore.ieee.org/abstract/document/5424196"
+      }
+    ]
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd5921824",
+    name: "Michio Kaku",
+    title: "Researcher",
+    about: "Michio Kaku is an American theoretical physicist, futurist, and popularizer of science. He is a professor of theoretical physics in the City College of New York and CUNY Graduate Center.",
+    image_url: "./kaku.jpg",
+    designation: ["Theoretical Physicist"],
     department: "Computer Science and Mathematics",
     education: [
       "PhD, Computer Science , City University of New York - The Graduate Center",
@@ -132,12 +167,123 @@ const profiles = [
     ]
   },
   {
-    _id: "5b21ca3eeb7f6fbccd5921824",
-    name: "Michio Kaku",
+    _id: "5b21ca3eeb7f6fbccd59adem34",
+    name: "Sourabh J. Mandal",
     title: "Assistant Professor",
-    about: "John Doe is a lab assistant at St. John's university",
-    image_url: "./kaku.jpg",
+    about: "Sourabh J. Mandal is an assitant professor at IIT university Kanpur",
+    image_url: "./sourabh.jpg",
     designation: ["Assitant Professor"],
+    department: "Computer Science and Mathematics",
+    education: [
+      "PhD, Computer Science , City University of New York - The Graduate Center",
+      "MPhil, Computer Science, City University of New York - The Graduate Center",
+      "MS, Computer Science, The City College of the City University of New York"
+    ],
+    contact: {
+      address: "St.Augustine Hall Queens 2-098",
+      phone: "718-990-7998",
+      email: "sourabh@stjohns.edu"
+    },
+    website: "https://scholar.google.com/citations?user=0PkTM-MAAAAJ&hl=en",
+    publications: [
+      {
+        title:
+          "Neural correlates of inspection time task performance: A developmental study",
+        authors: "TC Papadopoulos, C Ktisti, C Christoforou, M Loizou",
+        proceeding:
+          "Cognition, Intelligence, and Achievement: A Tribute to J. P. Das, 331-343",
+          link: "https://ieeexplore.ieee.org/abstract/document/5424196"
+      },
+      {
+        title:
+          "The bilinear brain: Bilinear methods for EEG analysis and brain computer interfaces",
+        authors: "C Christoforou",
+        proceeding: "City University of New York",
+        link: "https://ieeexplore.ieee.org/abstract/document/5424196"
+      }
+    ]
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccd58399224",
+    name: "Soon Chang",
+    title: "Lab Assistant",
+    about: "Soon Chun is a lab assistant at NYU research lab",
+    image_url: "./soon.jpg",
+    designation: ["Lab Assistant"],
+    department: "Computer Science and Mathematics",
+    education: [
+      "PhD, Computer Science , City University of New York - The Graduate Center",
+      "MPhil, Computer Science, City University of New York - The Graduate Center",
+      "MS, Computer Science, The City College of the City University of New York"
+    ],
+    contact: {
+      address: "St.Augustine Hall Queens 2-098",
+      phone: "718-990-7998",
+      email: "soon@stjohns.edu"
+    },
+    website: "https://scholar.google.com/citations?user=0PkTM-MAAAAJ&hl=en",
+    publications: [
+      {
+        title:
+          "Neural correlates of inspection time task performance: A developmental study",
+        authors: "TC Papadopoulos, C Ktisti, C Christoforou, M Loizou",
+        proceeding:
+          "Cognition, Intelligence, and Achievement: A Tribute to J. P. Das, 331-343",
+          link: "https://ieeexplore.ieee.org/abstract/document/5424196"
+      },
+      {
+        title:
+          "The bilinear brain: Bilinear methods for EEG analysis and brain computer interfaces",
+        authors: "C Christoforou",
+        proceeding: "City University of New York",
+        link: "https://ieeexplore.ieee.org/abstract/document/5424196"
+      }
+    ]
+  },
+  {
+    _id: "5b21ca3eeb7f6fbcc09468334",
+    name: "Zafar Ansari",
+    title: "Professor",
+    about: "Zafar Ansari is a full time tanured professor at NYU research lab",
+    image_url: "./zafar.jpg",
+    designation: ["Professor"],
+    department: "Computer Science and Mathematics",
+    education: [
+      "PhD, Computer Science , City University of New York - The Graduate Center",
+      "MPhil, Computer Science, City University of New York - The Graduate Center",
+      "MS, Computer Science, The City College of the City University of New York"
+    ],
+    contact: {
+      address: "St.Augustine Hall Queens 2-098",
+      phone: "718-990-7998",
+      email: "chris@stjohns.edu"
+    },
+    website: "https://scholar.google.com/citations?user=0PkTM-MAAAAJ&hl=en",
+    publications: [
+      {
+        title:
+          "Neural correlates of inspection time task performance: A developmental study",
+        authors: "TC Papadopoulos, C Ktisti, C Christoforou, M Loizou",
+        proceeding:
+          "Cognition, Intelligence, and Achievement: A Tribute to J. P. Das, 331-343",
+          link: "https://ieeexplore.ieee.org/abstract/document/5424196"
+      },
+      {
+        title:
+          "The bilinear brain: Bilinear methods for EEG analysis and brain computer interfaces",
+        authors: "C Christoforou",
+        proceeding: "City University of New York",
+        link: "https://ieeexplore.ieee.org/abstract/document/5424196"
+      }
+    ]
+  },
+  {
+    _id: "5b21ca3eeb7f6fbccdisdasa224",
+    name: "Sana Odeh",
+    title: "Assitant Professor",
+    about: "Sara Odeh is an assistant professor at NYU research lab",
+    image_url: "./sana.jpeg",
+    designation: ["Assistant Professor"],
     department: "Computer Science and Mathematics",
     education: [
       "PhD, Computer Science , City University of New York - The Graduate Center",

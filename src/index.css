@@ -54,9 +54,9 @@ border: 0px;
 
 #card{
   color: #00004d;
-  margin-top: 25px;
+  margin-top: 10px;
   margin-bottom: 35px;
-  margin-left: 30px;
+  margin-left: 10px;
   background-color: whitesmoke;
   transition: transform .2s;
   border: none;
@@ -99,7 +99,7 @@ border: 0px;
   /* transform: scale(1.01); */
   /* border: #00004d;  */
   /* border: 20px ;  */
-  background-color: #d9d9d9;
+  background-color: whitesmoke;
   cursor: pointer;
 }
 
@@ -223,4 +223,10 @@ border: 0px;
 
 #area-of{
   width: 180px;
+}
+
+#error-img{
+  height: fit-content;
+  width: fit-content;
+  margin-left: 160px;
 }
