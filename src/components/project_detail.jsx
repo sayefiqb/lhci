@@ -16,6 +16,7 @@ const Project_Detail = ({ match, history }) => {
             <h4>Abstract</h4>
             <br />
             <p className="lead">{myproject.abstract}</p>
+           <a href={myproject.link}><button className="btn btn-primary" >Read full paper</button></a>
           </div>
         </div>
         <div className="row">

@@ -25,29 +25,34 @@ const profiles = [
           "In a blink of an eye and a switch of a transistor: cortically coupled computer vision",
         authors:
           "Paul Sajda, Eric Pohlmeyer, Jun Wang, Lucas C Parra, Christoforos Christoforou, Jacek Dmochowski, Barbara Hanna, Claus Bahlmann, Maneesh Kumar Singh, Shih-Fu Chang",
-        proceeding: "Proceedings of the IEEE 98 (3), 462-478"
+        proceeding: "Proceedings of the IEEE 98 (3), 462-478",
+        link: "https://ieeexplore.ieee.org/abstract/document/5424196"
       },
       {
         title: "Spatiotemporal linear decoding of brain state",
         authors:
           "Lucas C Parra, Christoforos Christoforou, Adam C Gerson, Mads Dyrholm, An Luo, Mark Wagner, Marios G Philiastides, Paul Sajda",
-        proceeding: "IEEE Signal Processing Magazine 25 (1), 107-115"
+        proceeding: "IEEE Signal Processing Magazine 25 (1), 107-115",
+        link: "https://ieeexplore.ieee.org/document/4408447"
       },
       {
         title: "Bilinear discriminant component analysis",
         authors: "M Dyrholm, C Christoforou, LC Parra",
-        proceeding: "Journal of Machine Learning Research 8 (May), 1097-1111"
+        proceeding: "Journal of Machine Learning Research 8 (May), 1097-1111",
+        link: "http://www.jmlr.org/papers/volume8/dyrholm07a/dyrholm07a.pdf"
       },
       {
         title: "Second-order bilinear discriminant analysis",
         authors: "C Christoforou, R Haralick, P Sajda, LC Parra",
-        proceeding: "Journal of Machine Learning Research 11 (Feb), 665-685"
+        proceeding: "Journal of Machine Learning Research 11 (Feb), 665-685",
+        link: "https://ieeexplore.ieee.org/abstract/document/5424196"
       },
       {
         title: "Cognitive and Linguistic Dynamics of Reading Remediation",
         authors: "TC Papadopoulos, C Ktisti, C Christoforou, M Loizou",
         proceeding:
-          "Cognition, Intelligence, and Achievement: A Tribute to J. P. Das, 331-343"
+          "Cognition, Intelligence, and Achievement: A Tribute to J. P. Das, 331-343",
+          link: "https://ieeexplore.ieee.org/abstract/document/5424196"
       }
     ]
   },
@@ -76,13 +81,16 @@ const profiles = [
           "Neural correlates of inspection time task performance: A developmental study",
         authors: "TC Papadopoulos, C Ktisti, C Christoforou, M Loizou",
         proceeding:
-          "Cognition, Intelligence, and Achievement: A Tribute to J. P. Das, 331-343"
+          "Cognition, Intelligence, and Achievement: A Tribute to J. P. Das, 331-343",
+          link: "https://ieeexplore.ieee.org/abstract/document/5424196"
+        
       },
       {
         title:
           "The bilinear brain: Bilinear methods for EEG analysis and brain computer interfaces",
         authors: "C Christoforou",
-        proceeding: "City University of New York"
+        proceeding: "City University of New York",
+        link: "https://ieeexplore.ieee.org/abstract/document/5424196"
       }
     ]
   },
@@ -111,13 +119,15 @@ const profiles = [
           "Neural correlates of inspection time task performance: A developmental study",
         authors: "TC Papadopoulos, C Ktisti, C Christoforou, M Loizou",
         proceeding:
-          "Cognition, Intelligence, and Achievement: A Tribute to J. P. Das, 331-343"
+          "Cognition, Intelligence, and Achievement: A Tribute to J. P. Das, 331-343",
+          link: "https://ieeexplore.ieee.org/abstract/document/5424196"
       },
       {
         title:
           "The bilinear brain: Bilinear methods for EEG analysis and brain computer interfaces",
         authors: "C Christoforou",
-        proceeding: "City University of New York"
+        proceeding: "City University of New York",
+        link: "https://ieeexplore.ieee.org/abstract/document/5424196"
       }
     ]
   },
@@ -146,13 +156,15 @@ const profiles = [
           "Neural correlates of inspection time task performance: A developmental study",
         authors: "TC Papadopoulos, C Ktisti, C Christoforou, M Loizou",
         proceeding:
-          "Cognition, Intelligence, and Achievement: A Tribute to J. P. Das, 331-343"
+          "Cognition, Intelligence, and Achievement: A Tribute to J. P. Das, 331-343",
+          link: "https://ieeexplore.ieee.org/abstract/document/5424196"
       },
       {
         title:
           "The bilinear brain: Bilinear methods for EEG analysis and brain computer interfaces",
         authors: "C Christoforou",
-        proceeding: "City University of New York"
+        proceeding: "City University of New York",
+        link: "https://ieeexplore.ieee.org/abstract/document/5424196"
       }
     ]
   }
@@ -163,15 +175,21 @@ const projects = [
     id: "101",
     title:
       "From the eyes and the heart: A novel eye-gaze metric that predicts video preferences of a large audience",
+      summary:"A novel metric based approach on eye-gaze dispersion  that quantifies the impact of narrative-based video stimuli.",
     abstract:
-      "Eye-tracking has been extensively used to quantify audience preferences in the context of marketing and advertising research, primarily in methodologies involving static images or stimuli (i.e., advertising, shelf testing, and website usability). However, these methodologies do not generalize to narrative-based video stimuli where a specific storyline is meant to be communicated to the audience. In this paper, a novel metric based on eye-gaze dispersion (both within and across viewings) that quantifies the impact of narrative-based video stimuli to the preferences of large audiences is presented. The metric is validated in predicting the performance of video advertisements aired during the 2014 Super Bowl final. In particular, the metric is shown to explain 70% of the variance in likeability scores of the 2014 Super Bowl ads as measured by the USA TODAY Ad-Meter. In addition, by comparing the proposed metric with Heart Rate Variability (HRV) indices, we have associated the metric with biological processes relating to attention allocation. The underlying idea behind the proposed metric suggests a shift in perspective when it comes to evaluating narrative-based video stimuli. In particular, it suggests that audience preferences on video are modulated by the level of viewers lack of attention allocation. The proposed metric can be calculated on any narrative-based video stimuli (i.e., movie, narrative content, emotional content, etc.), and thus has the potential to facilitate the use of such stimuli in several contexts: prediction of audience preferences of movies, quantitative assessment of entertainment pieces, prediction of the impact of movie trailers, identification of group, and individual differences in the study of attention-deficit disorders, and the study of desensitization to media violence."
-  },
+      "Eye-tracking has been extensively used to quantify audience preferences in the context of marketing and advertising research, primarily in methodologies involving static images or stimuli (i.e., advertising, shelf testing, and website usability). However, these methodologies do not generalize to narrative-based video stimuli where a specific storyline is meant to be communicated to the audience. In this paper, a novel metric based on eye-gaze dispersion (both within and across viewings) that quantifies the impact of narrative-based video stimuli to the preferences of large audiences is presented. The metric is validated in predicting the performance of video advertisements aired during the 2014 Super Bowl final. In particular, the metric is shown to explain 70% of the variance in likeability scores of the 2014 Super Bowl ads as measured by the USA TODAY Ad-Meter. In addition, by comparing the proposed metric with Heart Rate Variability (HRV) indices, we have associated the metric with biological processes relating to attention allocation. The underlying idea behind the proposed metric suggests a shift in perspective when it comes to evaluating narrative-based video stimuli. In particular, it suggests that audience preferences on video are modulated by the level of viewers lack of attention allocation. The proposed metric can be calculated on any narrative-based video stimuli (i.e., movie, narrative content, emotional content, etc.), and thus has the potential to facilitate the use of such stimuli in several contexts: prediction of audience preferences of movies, quantitative assessment of entertainment pieces, prediction of the impact of movie trailers, identification of group, and individual differences in the study of attention-deficit disorders, and the study of desensitization to media violence.",
+    link: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4428128/"
+  
+    },
   {
     id: "102",
-    title: "Predicts video preferences of a large audience",
+    title: "Head ‘n Hand: Combining Headworn and Handheld Mobile Augmented Reality",
+    summary:"Using external optical trackers, and orientation tracking technologies built into the headworn displays and phones to implement AR.",
     abstract:
-      "Eye-tracking has been extensively used to quantify audience preferences in the context of marketing and advertising research, primarily in methodologies involving static images or stimuli (i.e., advertising, shelf testing, and website usability). However, these methodologies do not generalize to narrative-based video stimuli where a specific storyline is meant to be communicated to the audience. In this paper, a novel metric based on eye-gaze dispersion (both within and across viewings) that quantifies the impact of narrative-based video stimuli to the preferences of large audiences is presented. The metric is validated in predicting the performance of video advertisements aired during the 2014 Super Bowl final. In particular, the metric is shown to explain 70% of the variance in likeability scores of the 2014 Super Bowl ads as measured by the USA TODAY Ad-Meter. In addition, by comparing the proposed metric with Heart Rate Variability (HRV) indices, we have associated the metric with biological processes relating to attention allocation. The underlying idea behind the proposed metric suggests a shift in perspective when it comes to evaluating narrative-based video stimuli. In particular, it suggests that audience preferences on video are modulated by the level of viewers lack of attention allocation. The proposed metric can be calculated on any narrative-based video stimuli (i.e., movie, narrative content, emotional content, etc.), and thus has the potential to facilitate the use of such stimuli in several contexts: prediction of audience preferences of movies, quantitative assessment of entertainment pieces, prediction of the impact of movie trailers, identification of group, and individual differences in the study of attention-deficit disorders, and the study of desensitization to media violence."
-  }
+      "We propose to explore ways of combining headworn and handheld augmented reality for mobile computing. The goal is to create interaction techniques suitable for future mobile user interfaces in which users may have lightweight augmented reality eyewear in addition to handheld displays, all of which are tracked in 6DOF relative to each other. One interaction paradigm that we would like to investigate uses see-through eyewear to augment the user’s view of their interactions with a handheld phone, directly annotating the phone’s keypad and touchscreen or producing a larger contextual surround within which the physically small phone is situated. Another approach takes advantage of the internal cameras in one or more tracked phones to produce an augmented reality built from both the egocentric view of the headworn display and the exocentric views of the phones (e.g., capturing the rear view of an object in front of the user, or a view around a corner, as seen from the handheld phone",
+    link: "http://graphics.cs.columbia.edu/project/headnhand/"  
+  
+    }
 ];
 
 const area_of_interests = [

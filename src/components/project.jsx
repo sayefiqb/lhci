@@ -7,8 +7,8 @@ const Project = (props) => {
   <div id="project-card" class="card w-100">
   <div class="card-body">
   <h5 class="card-title">{props.myprop.title}</h5>
-    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-    <Link to={path} className="btn btn-primary">View Project</Link>
+  <p class="card-text">{props.myprop.summary}</p>
+    <Link to={path} className="btn btn-primary" id="project-btn">View Project</Link>
   </div>
 </div>
     // <div className="container">

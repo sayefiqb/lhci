@@ -36,8 +36,8 @@ const Detail = ({ match, history }) => {
     <p class="card-text"><strong  style={{color: "#00004d"}}>Email</strong> {myprofile.contact.email}</p>
     <p class="card-text"><strong  style={{color: "#00004d"}}>Phone</strong> {myprofile.contact.phone}</p>
     <p class="card-text">{myprofile.contact.address}</p>
-    <a href="#" class="card-link">Google Scholar</a>
-    <a href="#" class="card-link">Website</a>
+    <a href={myprofile.website} class="card-link">Google Scholar</a>
+    <a href={myprofile.website} class="card-link">Website</a>
   </div>
 </div>
   {/* <button id="gs" className="btn btn-primary mb1 bg-blue">Google Scholar</button>
@@ -52,7 +52,7 @@ const Detail = ({ match, history }) => {
           {myprofile.publications.map(p => (
             <tr key={p.title}>
               <td>
-                <a href="https://www.google.com">{p.title}</a>, {p.authors},{" "}
+                <a href={p.link}>{p.title}</a>, {p.authors},{" "}
                 {p.proceeding}
               </td>
             </tr>

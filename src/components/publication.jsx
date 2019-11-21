@@ -16,7 +16,7 @@ class Publication extends Component {
             profile.publications.map( p => (
               <tr key={p.title}>
                 <td>
-                  <a href="https://www.google.com">{p.title}</a>, {p.authors},{" "}
+                  <a href={p.link}>{p.title}</a>, {p.authors},{" "}
                   {p.proceeding}
                 </td>
               </tr>

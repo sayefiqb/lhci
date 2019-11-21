@@ -92,11 +92,11 @@ border: 0px;
   margin-bottom: 35px;
   border: none;
   color: #00004d;
-  transition: transform .2s;
+  /* transition: transform .2s; */
 }
 
 #project-card :hover{
-  transform: scale(1.01);
+  /* transform: scale(1.01); */
   /* border: #00004d;  */
   /* border: 20px ;  */
   background-color: #d9d9d9;
@@ -110,6 +110,18 @@ border: 0px;
 #project-button:hover{
   color: white;
   background-color: #00004d;
+}
+
+#project-btn{
+  color: white;
+  background-color: #00004d;
+  border: none;
+}
+
+#project-btn:hover{
+  color: white;
+  background-color: #00004d;
+  border: none;
 }
 
 #button:hover{
@@ -156,6 +168,7 @@ border: 0px;
 
 #card-img{
   border: none;
+  height: 320px;
   opacity: 0.8;
 }
 
@@ -206,4 +219,8 @@ border: 0px;
 }
 .bounce {
   animation-name: bounce;
+}
+
+#area-of{
+  width: 180px;
 }
