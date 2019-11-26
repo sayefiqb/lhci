@@ -26,7 +26,7 @@ const BottomNav = () => {
                 <a href="https://www.acm.org">
                   <img
                     className="bottom-nav-img"
-                    src={require("./acm.png")}
+                    src="./acm.png"
                     style={{ width: "50px", height: "50px" }}
                     alt=""
                   />
@@ -36,7 +36,7 @@ const BottomNav = () => {
                 <a href="https://www.stjohns.edu">
                   <img
                     className="bottom-nav-img"
-                    src={require("./sju.png")}
+                    src="./sju.png"
                     style={{ width: "50px", height: "50px" }}
                     alt=""
                   />
@@ -46,7 +46,7 @@ const BottomNav = () => {
                 <a href="https://www.ieee.org">
                   <img
                     className="bottom-nav-img"
-                    src={require("./ieee.png")}
+                    src="./ieee.png"
                     style={{ width: "50px", height: "50px" }}
                     alt=""
                   />

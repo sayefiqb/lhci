@@ -28,7 +28,7 @@ const Home = () => {
                 <MDBView>
                   <img
                     className="d-block w-100"
-                    src={require("./lab1.jpg")}
+                    src="./lab1.jpg"
                     alt="First slide"
                   />
                   <MDBMask overlay="black-light" />
@@ -38,7 +38,7 @@ const Home = () => {
                 <MDBView>
                   <img
                     className="d-block w-100"
-                    src={require("./lab3.jpg")}
+                    src="./lab3.jpg"
                     alt="Second slide"
                   />
                   <MDBMask overlay="black-strong" />
@@ -48,7 +48,7 @@ const Home = () => {
                 <MDBView>
                   <img
                     className="d-block w-100"
-                    src={require("./lab4.jpg")}
+                    src="./lab4.jpg"
                     alt="Third slide"
                   />
                   <MDBMask overlay="black-slight" />

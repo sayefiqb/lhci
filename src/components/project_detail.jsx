@@ -23,7 +23,7 @@ const Project_Detail = ({ match, history }) => {
           <div className="col-sm-6">
             <img
               className="project_img"
-              src={require("../pic1.png")}
+              src="./pic1.png"
               style={{ width: "400px", height: "400px" }}
               alt=""
             />
@@ -31,7 +31,7 @@ const Project_Detail = ({ match, history }) => {
           <div className="col-sm-6">
             <img
               className="project_img"
-              src={require("../pic2.png")}
+              src="./pic2.png"
               style={{ width: "400px", height: "400px" }}
               alt=""
             />
@@ -41,7 +41,7 @@ const Project_Detail = ({ match, history }) => {
           <div className="col-sm-6">
             <img
               className="project_img"
-              src={require("../pic3.png")}
+              src="./pic3.png"
               style={{ width: "400px", height: "400px" }}
               alt=""
             />
@@ -49,7 +49,7 @@ const Project_Detail = ({ match, history }) => {
           <div className="col-sm-6">
             <img
               className="project_img"
-              src={require("../pic4.png")}
+              src="./pic4.png"
               style={{ width: "400px", height: "400px" }}
               alt=""
             />
